@@ -8,6 +8,7 @@ public class IPResolver {
     private int port;
 
     public IPResolver(String ipaddress) {
+        ipaddress = ipaddress,trim();
         EnumConnection type = getType(ipaddress);
         switch (type) {
         case DOMAIN:
