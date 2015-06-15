@@ -2,6 +2,7 @@
 #Wed May 21 19:58:20 EDT 2014
 colors.aqua=Aqua
 colors.brightgreen=Ljusgrön
+colors.black=Svart
 colors.darkaqua=Mörk Aqua
 colors.darkblue=Mörkblå
 colors.darkgray=Mörkgrå
@@ -16,35 +17,47 @@ colors.purple=Lila
 colors.red=Röd
 colors.white=Vit
 colors.yellow=Gul
+
 delims.angles=<Vinklar>
 delims.anglesbracketscombo=<[Kombo]Pl.>
 delims.anglesparenscombo=<(Kombo)Pl.>
 delims.braces={Klammrar}
 delims.brackets=[Konsoler]
 delims.parenthesis=(Parenteser)
+
 formats.bold=Fetstil
 formats.default=Standard
 formats.italic=Kursiv
+formats.magic=Magi
 formats.striked=Genomstrykt
 formats.underline=Understruket
+
 messages.update1=En uppdatering är tillgänglig\! (Nuvarande version är
 messages.update2=, nyaste är
 messages.update3=Besök TabbyChat forum tråden på minecraftforum.net för att ladda ner
+
 settings.advanced.chatboxunfocheight=Ofokuserad höjd
 settings.advanced.chatfadeticks=Chatt borttonings tid (ticks)
 settings.advanced.chatscrollhistory=Chatt historik att spara (rader)
+settings.advanced.convertunicodetext=Konvertera unicode syntax
 settings.advanced.forceunicode=Tvinga Unicode Chatt Rendering
 settings.advanced.maxlengthchannelname=Kanalnamn max. längd
 settings.advanced.multichatdelay=Multi-chatt skickningsfördröjning (ms)
 settings.advanced.name=Avancerat
+settings.advanced.textignoreopacity=Text ignorerar opacitetsinställningen
+
 settings.cancel=Avbryt
+settings.delete=Ta bort
+settings.new=Ny
+settings.save=Spara
+
 settings.channel.alias=Alias
 settings.channel.cmdprefix=Chatt kommando prefix
 settings.channel.hideprefix=Göm prefix medans du skriver
 settings.channel.notificationson=Olästa meddelanden
 settings.channel.of=av
 settings.channel.position=Position\:
-settings.delete=Ta bort
+
 settings.filters.audionotificationbool=Ljudnotifiering
 settings.filters.audionotificationsound=Ljud
 settings.filters.casesensitive=Skiftlägeskänsligt
@@ -59,24 +72,36 @@ settings.filters.removematches=Göm matcher från chatten
 settings.filters.sendtoalltabs=Alla flikar
 settings.filters.sendtotabbool=Skicka matcher till flik
 settings.filters.sendtotabname=Fliknamn
+
 settings.general.groupspam=Konsolidera spammad chat
 settings.general.name=Allmänt
 settings.general.savechatlog=Logga chatt till fil
+settings.spelling.spellcheckenable=Aktivera Stavningskontroll
+settings.general.splitchatlog=Dela logg efter kanal
 settings.general.tabbychatenable=TabbyChat Aktiverad
-settings.general.timestampcolor=Tidsstämpelfärg
+settings.general.timestampcolor=Tidsstämpelsfärg
 settings.general.timestampenable=Tidsstämpla chatt
-settings.general.timestampstyle=Tidsstämpelstil
+settings.general.timestampstyle=Tidsstämpelsstil
 settings.general.unreadflashing=Blinkade olästa meddelanden som standard
-settings.new=Ny
-settings.save=Spara
-settings.server.autochannelsearch=Sök automatiskt efter nya kanaler
-settings.server.autopmsearch=Sök automatiskt efter nya PMs
-settings.server.defaultchannels=Standard kanaler
-settings.server.delimcolorbool=Färgare avgränsare
+settings.general.updatecheckenable=Sök efter uppdateringar
+
+settings.server.autochannelsearch=Aktivera kanalflikar
+settings.server.autopmsearch=Aktivera PM-flikar
+settings.server.defaultchannels=Standardkanaler
+settings.server.delimcolorbool=Färgade avgränsare
 settings.server.delimformatbool=Formaterade avgränsare
-settings.server.delimiterchars=Chatt-kanals avgränsare
+settings.server.delimiterchars=Chatt-kanalsavgränsare
 settings.server.ignoredchannels=Ignorerade kanaler
 settings.server.name=Server
+settings.server.regexignorebool=Använd mönster
+settings.server.pmtabregex.tome=PM Regex Till Mig
+settings.server.pmtabregex.fromme=PM Regex Från Mig
+
+settings.spelling.name=Stavning
+settings.spelling.userdictionary=Egen Ordlista
+settings.spelling.opendictionary=Öppna Ordlista
+settings.spelling.reloaddictionary=Ladda om
+
 sounds.anvil=Städ
 sounds.bass=Bas
 sounds.bat=Fladdermus
